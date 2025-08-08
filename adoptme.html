@@ -11,6 +11,7 @@
         font-family: sans-serif;
       }
     </style>
+    <script src="adoptme.js"></script>
   </head>
   <body>
     <h2>This is form to Adopt Pet, You must enter your information</h2>
@@ -74,14 +75,15 @@
         <input type="radio" name="raisingplace" value="outside" />
         Outside Home </label
       ><br />
-      <label for="petnumber">Number of pets you have</label><br />
-      <input type="number" /><br />
+      <label for="pet_number">Number of pets you have</label><br />
+      <input type="petnumber" /><br />
       <label>If you completed check the box</label><br />
       <label>
-        <input type="checkbox" name="completed" value="yes" />
+        <input type="checkbox" id="checkbox" name="completed" value="yes" />
         Submission of this form is an expression of interest and does not
         guarantee adoption of the dog.
-      </label>
+      </label><br/>
+      <button type="submit" onclick="checkData()">Submit</button>
     </form>
     <p>6870289521 Sirawitch Tiyasuttipun</p>
   </body>
