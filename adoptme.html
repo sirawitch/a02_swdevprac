@@ -76,14 +76,14 @@
         Outside Home </label
       ><br />
       <label for="pet_number">Number of pets you have</label><br />
-      <input type="petnumber" /><br />
+      <input type="number" id="petnumber"/><br />
       <label>If you completed check the box</label><br />
       <label>
         <input type="checkbox" id="checkbox" name="completed" value="yes" />
         Submission of this form is an expression of interest and does not
         guarantee adoption of the dog.
       </label><br/>
-      <button type="submit" onclick="checkData()">Submit</button>
+      <button type="submit" onclick="checkData(event)">Submit</button>
     </form>
     <p>6870289521 Sirawitch Tiyasuttipun</p>
   </body>
