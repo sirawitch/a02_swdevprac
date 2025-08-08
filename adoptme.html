@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adopt Pet</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This is form to Adopt Pet, You must enter your information</h2>
+    <form>
+      <label>First Name </label><br />
+      <input
+        type="text"
+        id="firstname"
+        name="firstname"
+        placeholder="First Name"
+        size="20"
+      /><br />
+      <label>Last Name </label><br />
+      <input
+        type="text"
+        id="lastname"
+        name="lastname"
+        placeholder="Last Name"
+        size="20"
+      /><br />
+      <label>Telephone No. </label><br />
+      <input
+        type="text"
+        id="tel"
+        name="tel"
+        placeholder="Telephone"
+        size="20"
+      /><br />
+      <label>Email </label><br />
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="ex@hotmail.com"
+        size="20"
+      /><br />
+      <label>Address</label><br />
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="address"
+        size="20"
+      />
+      <br />
+      <label for="home">Type of Home</label>
+      <br />
+      <select id="home" name="home">
+        <option value="Garden House">Garden House</option>
+        <option value="Single House">Single House</option>
+        <option value="Town Home">Town Home</option>
+        <option value="Condominium/Flat">Condominium/Flat</option></select
+      ><br />
+      <label>Where raising pet</label><br />
+      <label>
+        <input type="radio" name="raisingplace" value="inside" />
+        Inside Home
+      </label>
+
+      <label>
+        <input type="radio" name="raisingplace" value="outside" />
+        Outside Home </label
+      ><br />
+      <label for="petnumber">Number of pets you have</label><br />
+      <input type="number" /><br />
+      <label>If you completed check the box</label><br />
+      <label>
+        <input type="checkbox" name="completed" value="yes" />
+        Submission of this form is an expression of interest and does not
+        guarantee adoption of the dog.
+      </label>
+    </form>
+    <p>6870289521 Sirawitch Tiyasuttipun</p>
+  </body>
+</html>
