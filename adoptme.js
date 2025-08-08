@@ -1,4 +1,5 @@
-function checkData() {
+function checkData(event) {
+  event.preventDefault();
   let fname = document.getElementById("firstname").value.trim();
   let lname = document.getElementById("lastname").value.trim();
   let tel = document.getElementById("tel").value.trim();
@@ -17,5 +18,4 @@ function checkData() {
       "Please note that submitting this form only expresses your interest. It does not guarantee that you will be selected to adopt a dog."
     );
   }
-
 }
